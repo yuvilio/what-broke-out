@@ -1,0 +1,51 @@
+{
+  "name": "what-broke-out",
+  "version": "0.5.0",
+  "description": "Find larger elements within some element. Useful in responsive breaking debugging..",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: TODO tests\" && exit 1",
+    "build-standalone-global": "./build-standalone-global.sh"
+  },
+  "author": {
+    "name": "Yuval Maman",
+    "url": "http://github.com/yuvilio"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dom-style": "0.0.3",
+    "element-size": "^1.1.1",
+    "sliced": "0.0.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^1.9.0",
+    "browserify": "^8.1.0",
+    "browserify-standalone": "^0.3.0",
+    "document-offset": "^1.0.3",
+    "dom-style": "0.0.3",
+    "domquery": "^1.2.0",
+    "element-calcum": "^0.5.3",
+    "element-size": "^1.1.1",
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-gh-pages": "^0.4.0",
+    "gulp-release-tasks": "0.0.3",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-swig": "^0.7.4",
+    "highlight-redux": "^1.0.1",
+    "highlight.js": "^8.4.0",
+    "marked": "^0.3.2",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yuvilio/what-broke-out.git"
+  },
+  "keywords": [
+    "browser",
+    "css",
+    "debug",
+    "responsive"
+  ]
+}

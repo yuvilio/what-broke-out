@@ -1,0 +1,42 @@
+//codeh highlight theme
+@import 'vendor/highlightjs/solarized_dark.scss';
+@import 'partials/conveniences.scss';
+
+
+[class*="box"] {
+  &:before {
+    display: table;
+    background-color: salmon;
+    color: white;
+    padding: 3px 2px;
+    position: absolute;
+    left: 0;
+
+  //example specific styles
+  .current-demo  & {
+    content: attr(data-width);
+  }
+  }
+}
+
+.demos { //only show the active demo
+  display: none;
+}
+
+//the examples, style only the active ones
+.current-demo {
+
+  .demo-larger-child {
+    width:100%;
+    height: 300px;
+
+
+    .child {
+      height: 150px;
+
+      //use calc() with more than 100% to guarantee larger width
+      width: calc(100% + 40px);
+    }
+  }
+
+}
